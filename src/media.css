@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .navbars {
+    display: none;
+  }
+  .navbars {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    left: 0;
+    right: 0;
+    padding: 0.2rem 0.3rem;
+    background-color: #c5c9d3;
+    transition: all 0.2s ease-in-out;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 100% 0);
+  }
+  .navbars a {
+    display: block;
+    text-align: center;
+    margin: 0.2rem 0;
+  }
+  .active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
