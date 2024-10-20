@@ -15,7 +15,7 @@
 
 <body>
     <!-- header section start  -->
-    <header class="bg-gray-100 flex justify-center items-center">
+    <header class="bg-gray-100 flex justify-center items-center" id="home">
         <div class="bg-gray-100 p-5 flex justify-between items-center w-full fixed z-10 top-0">
             <a href="" class="text-3xl text-gray-700 font-bold"><i class="fa-solid fa-utensils"></i>&ensp;Restaurant</a>
             <nav class="navbars" id="navbars">
@@ -37,29 +37,129 @@
                 <img src="../img/svg/Menubar.svg" alt="">
             </div>
         </div>
-        <div class="md:grid md:grid-cols-2 lg:grid-cols-2 my-5 gap-5">
+
+
+        <div class="md:grid md:grid-cols-1 lg:grid-cols-2 my-5 mt-5 gap-5" style="margin-top: 100px;">
+            <div class=" p-5" style="width: 500px;">
+                <div class="flex justify-center items-center object-cover object-center">
+                    <img src="../img/food.jpg" width="100%" alt="" class="rounded" data-aos="zoom-in"
+                        data-aos-duration="500" data-aos-delay="500">
+                </div>
+            </div>
             <div class="flex justify-center items-center">
-                <div class="p-5 ">
+                <div class="p-5 mt-5">
                     <h4 class="text-2xl text-gray-700 " data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
                         Food is ...</h4>
-                    <h1 class="text-4xl text-gray-800 my-3">Delicious</h1>
-                    <p class="text-gray-500 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, dolore?
+                    <h1 class="text-4xl text-gray-800 my-3" data-aos="fade-up" data-aos-duration="800"
+                        data-aos-delay="500">
+                        Delicious</h1>
+                    <p class="text-gray-500 py-3" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+                        Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Eum, dolore?
                     </p>
-                    <button class="rounded mt-5 px-3 py-2 bg-green-400 text-white hover:bg-green-500 font-bold">Order
+                    <button class="rounded mt-5 px-3 py-2 bg-green-400 text-white hover:bg-green-500 font-bold"
+                        data-aos="fade-up" data-aos-duration="1300" data-aos-delay="500">Order
                         Now</button>
                 </div>
             </div>
-            <div class=" p-5" style="width: 500px;">
-                <div class="flex justify-center items-center object-cover object-center">
-                    <img src="../img/food.jpg" width="100%" alt="" class="rounded">
-                </div>
-            </div>
-
         </div>
 
 
 
+
+
     </header>
+    <section class="dishes bg-gray-50" id="dishes">
+        <div class="py-5">
+            <h3 class="text-center text-xl text-green-400 capitalize font-bold">our dishes</h3>
+            <h1 class="text-4xl font-bold text-center text-gray-600 py-5">Popular dishes</h1>
+
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 p-5 m-5">
+            <div class="card bg-gray-100  shadow-xl">
+                <figure class="p-5">
+                    <img src="../img/burger-8869971_1920.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="items-center text-center">
+                    <h2 class="text-2xl font-bold text-gray-700">Food</h2>
+                    <div class="my-3">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #222;"></i>
+
+                    </div>
+                    <div class="card-actions flex justify-center items-center p-5">
+                        <span class="text-gray-600 font-bold">&dollar;1550</span> <button
+                            class="px-5 py-2 bg-green-400 hover:bg-green-500 rounded text-white">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-gray-100  shadow-xl">
+                <figure class="p-5">
+                    <img src="../img/burger-8869971_1920.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="items-center text-center">
+                    <h2 class="text-2xl font-bold text-gray-700">Food</h2>
+                    <div class="my-3">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #222;"></i>
+
+                    </div>
+                    <div class="card-actions flex justify-center items-center p-5">
+                        <span class="text-gray-600 font-bold">&dollar;1550</span> <button
+                            class="px-5 py-2 bg-green-400 hover:bg-green-500 rounded text-white">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-gray-100  shadow-xl">
+                <figure class="p-5">
+                    <img src="../img/burger-8869971_1920.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="items-center text-center">
+                    <h2 class="text-2xl font-bold text-gray-700">Food</h2>
+                    <div class="my-3">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #222;"></i>
+
+                    </div>
+                    <div class="card-actions flex justify-center items-center p-5">
+                        <span class="text-gray-600 font-bold">&dollar;1550</span> <button
+                            class="px-5 py-2 bg-green-400 hover:bg-green-500 rounded text-white">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-gray-100  shadow-xl">
+                <figure class="p-5">
+                    <img src="../img/burger-8869971_1920.jpg" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="items-center text-center">
+                    <h2 class="text-2xl font-bold text-gray-700">Food</h2>
+                    <div class="my-3">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #222;"></i>
+
+                    </div>
+                    <div class="card-actions flex justify-center items-center p-5">
+                        <span class="text-gray-600 font-bold">&dollar;1550</span> <button
+                            class="px-5 py-2 bg-green-400 hover:bg-green-500 rounded text-white">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
     <!-- header section end  -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
